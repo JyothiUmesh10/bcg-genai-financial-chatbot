@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Virtual environment
+.venv/
+
+# Raw data (keep PDFs/docs out of git)
+data/raw/
+
+# Secrets
+.env
+
