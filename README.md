@@ -58,3 +58,30 @@ bcg-genai-financial-chatbot/
 ├── EXTRACTION_PLAN.md                # Notes on which metrics to extract and why
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # This file
+---
+
+## 🤖 Financial Chatbot Prototype (Task 3)
+
+In the final stage of the simulation, I developed a simplified rule-based financial chatbot prototype.
+
+### Objective
+
+To transform structured financial data into interactive responses using predefined financial queries.
+
+### Implementation
+
+- Built a Python script (`src/chatbot.py`) using rule-based `if-elif` logic.
+- Designed predefined financial queries such as:
+  - Revenue comparison
+  - Net income changes
+  - Company performance ranking
+- Implemented basic error handling for unsupported queries.
+- Created supporting documentation (`CHATBOT_DOCUMENTATION.md`) outlining logic, limitations, and future improvements.
+
+### Key Learning
+
+This stage emphasized:
+
+- Translating structured financial insights into conversational logic
+- Designing user-friendly AI responses
+- Understanding the foundational architecture of chatbot systems before applying advanced NLP or machine learning techniques
